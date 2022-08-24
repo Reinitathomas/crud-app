@@ -3,7 +3,7 @@ import logging
 from flask_pymongo import pymongo
 from flask import jsonify, request
 
-con_string = "mongodb+srv://reinita:reinita@cluster0.a6d0lv7.mongodb.net/?retryWrites=true&w=majority"
+con_string = "mongodb+srv://reinita:<your-password>@cluster0.a6d0lv7.mongodb.net/?retryWrites=true&w=majority"
 
 client = pymongo.MongoClient(con_string)
 
